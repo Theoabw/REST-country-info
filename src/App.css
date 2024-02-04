@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: roboto, sans-serif;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -24,22 +25,22 @@ body {
   padding: 20px;
 }
 
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20vw;
 
-.dropdown-container {
+}
+
+.Selector-group{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 50%;
   margin: 20px auto;
-}
-
-.dropdown-menus {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
 }
 
 select {
